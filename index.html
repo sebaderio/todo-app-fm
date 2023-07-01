@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Todo app | Frontend Mentor</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="todo-title">TODO</div>
+    <div class="theme-toggle">
+      <input type="checkbox" id="theme-toggle-checkbox">
+      <label for="theme-toggle-checkbox" class="theme-toggle-checkbox-label">
+        <i class="fa-sharp fa-solid fa-moon dark-theme-icon"></i>
+        <i class="fa-regular fa-sun light-theme-icon"></i>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div class="task br-top br-bottom mr-bottom">
+      <div class="mark-as-completed">
+        <input type="checkbox" id="mark-as-completed-btn-1" />
+        <label for="mark-as-completed-btn-1"></label>
+      </div>
+      <input placeholder="Create a new todo..."></input>
+    </div>
+
+    <div class="tasks-list">
+      <div class="task b-bottom br-top">
+        <div class="mark-as-completed">
+          <input type="checkbox" id="mark-as-completed-btn-2" />
+          <label for="mark-as-completed-btn-2"></label>
+        </div>
+        <div class="task-description strikethrough">
+          Complete online JavaScript course
+        </div>
+        <div class="task-delete">
+        </div>
+      </div>
+      <div class="task b-bottom">
+        <div class="mark-as-completed">
+          <input type="checkbox" id="mark-as-completed-btn-3" />
+          <label for="mark-as-completed-btn-3"></label>
+        </div>
+        <div class="task-description">
+          Jog around the park 3x
+        </div>
+
+      </div>
+      <div class="task b-bottom">
+        <div class="mark-as-completed">
+          <input type="checkbox" id="mark-as-completed-btn-4" />
+          <label for="mark-as-completed-btn-4"></label>
+        </div>
+        <div class="task-description">
+          10 minutes meditation
+        </div>
+
+      </div>
+      <div class="task b-bottom">
+        <div class="mark-as-completed">
+          <input type="checkbox" id="mark-as-completed-btn-5" />
+          <label for="mark-as-completed-btn-5"></label>
+        </div>
+        <div class="task-description">
+          Read for 1 hour
+        </div>
+
+      </div>
+      <div class="task b-bottom">
+        <div class="mark-as-completed">
+          <input type="checkbox" id="mark-as-completed-btn-6" />
+          <label for="mark-as-completed-btn-6"></label>
+        </div>
+        <div class="task-description">
+          Pick up groceries
+        </div>
+      </div>
+      <div class="task b-bottom">
+        <div class="mark-as-completed">
+          <input type="checkbox" id="mark-as-completed-btn-7" />
+          <label for="mark-as-completed-btn-7"></label>
+        </div>
+        <div class="task-description">
+          Complete Todo App on Frontend Mentor
+        </div>
+      </div>
+    </div>
+
+    <div class="control-panel">
+      <div class="task br-bottom actions-list">
+        <div class="action-item">
+          5 items left
+        </div>
+
+        <div class="action-item">
+          <button>Clear Completed</button>
+        </div>
+      </div>
+
+      <div class="task br-top br-bottom filters">
+        <div class="filter-item selected">
+          <button>All</button>
+        </div>
+        <div class="filter-item">
+          <button>Active</button>
+        </div>
+        <div class="filter-item">
+          <button>Completed</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="suggestion">
+      <p class="suggestion-text">Drag and drop to reorder list</p>
+    </div>
+  </main>
+
+  <script src="js/main.js" defer></script>
+
+</body>
+
+</html>
