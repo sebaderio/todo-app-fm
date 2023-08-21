@@ -4,4 +4,4 @@ Initial solution for [Todo app challenge on Frontend Mentor](https://www.fronten
 
 ## Links
 
-- [Solution URL](https://sebaderio.github.io/todo-app-fm/)
+- [Live site URL](https://sebaderio.github.io/todo-app-fm/)
